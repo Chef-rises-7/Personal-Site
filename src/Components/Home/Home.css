@@ -1,0 +1,46 @@
+.Home__holder {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home__container {
+    overflow: hidden;
+    position: relative;
+    width: 65%;
+}
+
+.Home__image {
+    width: 100%;
+    
+    height: 100%;
+    /* transform: rotate(-5deg) scale(1.05); */
+}
+
+.tc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    width: 4%;  
+}
+
+.tc li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+}
+
+.tc li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: pink;
+}
